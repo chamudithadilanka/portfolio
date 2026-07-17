@@ -41,6 +41,7 @@ export default function Hero() {
   const [textIndex, setTextIndex] = useState(0);
   const [screenIndex, setScreenIndex] = useState(0);
   const [typedName, setTypedName] = useState("");
+  const [windowWidth, setWindowWidth] = useState(1200);
   const { scrollY } = useScroll();
   const bgY = useTransform(scrollY, [0, 500], [0, 150]);
   const phoneY = useTransform(scrollY, [0, 500], [0, -60]);
@@ -48,6 +49,7 @@ export default function Hero() {
   const { theme } = useTheme();
 
   useEffect(() => {
+    setWindowWidth(window.innerWidth);
     const interval = setInterval(() => {
       setTextIndex((prev) => (prev + 1) % rotatingTexts.length);
     }, 3000);
@@ -221,7 +223,7 @@ export default function Hero() {
               height: 100 + i * 60,
               borderRadius: "50%",
               border: `1px solid rgba(167, 139, 250, ${0.08 - i * 0.01})`,
-              left: `${50 - (100 + i * 60) / 2 / window?.innerWidth * 100 || 20}%`,
+              left: `${50 - (100 + i * 60) / 2 / windowWidth * 100 || 20}%`,
               top: `${50 - (100 + i * 60) / 2 / 800 * 100 || 30}%`,
               animation: `rotateCircle ${20 + i * 5}s linear infinite${i % 2 === 0 ? "" : " reverse"}`,
             }}

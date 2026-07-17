@@ -2,7 +2,7 @@ export const portfolioData = {
   name: "Chamuditha Dilanka",
   title: "AI/ML & Mobile Developer",
   tagline: "6 months intensive training in Flutter & Node.js backend with clean architecture, building AI-powered mobile apps and websites.",
-  email: "chamuditha@example.com",
+  email: "chamudithadilanka2001@gmail.com",
   github: "https://github.com/chamudithadilanka",
   linkedin: "https://www.linkedin.com/in/chamuditha-dilanka-35199b2a8/",
   avatar: "https://avatars.githubusercontent.com/u/116710302?v=4",
