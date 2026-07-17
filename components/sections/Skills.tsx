@@ -69,7 +69,7 @@ export default function Skills() {
                     initial={{ width: 0 }}
                     whileInView={{ width: `${skill.level}%` }}
                     viewport={{ once: true }}
-                    transition={{ duration: 1.2, delay: i * 0.04, ease: [0.25, 0.46, 0.45, 0.94] }}
+                    transition={{ duration: 1.2, delay: i * 0.04, ease: [0.25, 0.46, 0.45, 0.94] as const }}
                   />
                 </div>
               </motion.div>

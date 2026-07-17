@@ -1,5 +1,5 @@
 "use client";
-import { motion } from "framer-motion";
+import { motion, type Variants } from "framer-motion";
 import { Award, ExternalLink } from "lucide-react";
 
 const certifications = [
@@ -29,7 +29,7 @@ const certifications = [
   },
 ];
 
-const cardVariants = {
+const cardVariants: Variants = {
   hidden: { opacity: 0, y: 40, scale: 0.95 },
   visible: (i: number) => ({
     opacity: 1,
@@ -43,14 +43,14 @@ const cardVariants = {
   }),
 };
 
-const floatVariants = {
+const floatVariants: Variants = {
   animate: (i: number) => ({
     y: [-8, 8, -8],
     rotate: [-2, 2, -2],
     transition: {
       duration: 4 + i * 0.5,
       repeat: Infinity,
-      ease: "easeInOut",
+      ease: "easeInOut" as const,
     },
   }),
 };
