@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="390" height="844" viewBox="0 0 390 844">
+  <rect width="390" height="844" fill="#000"/>
+  <!-- Camera viewfinder -->
+  <rect x="30" y="100" width="330" height="500" rx="20" fill="#0a0a1a" stroke="#38bdf8" stroke-width="2" stroke-dasharray="8 4"/>
+  <!-- Scanning overlay -->
+  <circle cx="195" cy="350" r="120" fill="none" stroke="#38bdf8" stroke-width="2" opacity="0.5"/>
+  <circle cx="195" cy="350" r="80" fill="none" stroke="#38bdf8" stroke-width="1.5" opacity="0.3"/>
+  <!-- Corner brackets -->
+  <path d="M80 200 L80 170 L110 170" fill="none" stroke="#38bdf8" stroke-width="3"/>
+  <path d="M310 200 L310 170 L280 170" fill="none" stroke="#38bdf8" stroke-width="3"/>
+  <path d="M80 500 L80 530 L110 530" fill="none" stroke="#38bdf8" stroke-width="3"/>
+  <path d="M310 500 L310 530 L280 530" fill="none" stroke="#38bdf8" stroke-width="3"/>
+  <!-- Scanning line -->
+  <rect x="50" y="340" width="290" height="2" fill="#38bdf8" opacity="0.8"/>
+  <!-- Teeth silhouette -->
+  <g transform="translate(140, 280)" opacity="0.6">
+    <ellipse cx="55" cy="40" rx="30" ry="45" fill="#38bdf8" opacity="0.15"/>
+    <ellipse cx="55" cy="30" rx="20" ry="25" fill="white" opacity="0.1"/>
+  </g>
+  <!-- Status -->
+  <text x="195" y="650" text-anchor="middle" font-family="Arial" font-size="16" fill="#38bdf8">Position your teeth in the frame</text>
+  <text x="195" y="680" text-anchor="middle" font-family="Arial" font-size="12" fill="#8b8b94">AI detection active</text>
+  <!-- Capture button -->
+  <circle cx="195" cy="750" r="35" fill="none" stroke="white" stroke-width="3"/>
+  <circle cx="195" cy="750" r="28" fill="#38bdf8"/>
+</svg>

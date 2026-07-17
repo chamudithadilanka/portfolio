@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="390" height="844" viewBox="0 0 390 844">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a1a2a"/>
+      <stop offset="50%" style="stop-color:#0369a1"/>
+      <stop offset="100%" style="stop-color:#38bdf8"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="45%" r="35%">
+      <stop offset="0%" style="stop-color:#38bdf8;stop-opacity:0.3"/>
+      <stop offset="100%" style="stop-color:#38bdf8;stop-opacity:0"/>
+    </radialGradient>
+  </defs>
+  <rect width="390" height="844" fill="url(#bg)"/>
+  <circle cx="195" cy="350" r="200" fill="url(#glow)"/>
+  <g transform="translate(145, 260) scale(1.2)">
+    <path d="M40 20 C40 8, 52 0, 60 0 C68 0, 80 8, 80 20 L82 60 C82 75, 75 85, 68 95 C64 100, 62 110, 62 120 C62 130, 66 135, 68 140 C70 145, 72 155, 70 160 C68 165, 60 168, 56 165 C52 162, 50 155, 50 145 L48 145 C48 155, 46 162, 42 165 C38 168, 30 165, 28 160 C26 155, 28 145, 30 140 C32 135, 36 130, 36 120 C36 110, 34 100, 30 95 C23 85, 16 75, 16 60 Z" fill="white" opacity="0.9"/>
+  </g>
+  <text x="195" y="470" text-anchor="middle" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="white">SmileyTooth</text>
+  <text x="195" y="505" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#38bdf8" opacity="0.8">Your AI Dental Health Companion</text>
+  <circle cx="175" cy="600" r="4" fill="#38bdf8" opacity="0.4"/>
+  <circle cx="195" cy="600" r="4" fill="#38bdf8" opacity="0.7"/>
+  <circle cx="215" cy="600" r="4" fill="#38bdf8" opacity="1"/>
+</svg>

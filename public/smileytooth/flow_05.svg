@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="250" viewBox="0 0 400 250">
+  <rect width="400" height="250" fill="#0a0a1a" rx="12"/>
+  <rect x="20" y="20" width="360" height="210" rx="8" fill="#101018" stroke="#f472b630" stroke-width="1"/>
+  <text x="200" y="50" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold" fill="white">Progress History</text>
+  <!-- Timeline -->
+  <line x1="60" y1="80" x2="60" y2="200" stroke="#f472b630" stroke-width="2"/>
+  <circle cx="60" cy="90" r="6" fill="#f472b6"/>
+  <text x="80" y="94" font-family="Arial" font-size="10" fill="white">Week 1</text>
+  <text x="80" y="108" font-family="Arial" font-size="9" fill="#8b8b94">Score: 72%</text>
+  <circle cx="60" cy="130" r="6" fill="#f472b6"/>
+  <text x="80" y="134" font-family="Arial" font-size="10" fill="white">Week 4</text>
+  <text x="80" y="148" font-family="Arial" font-size="9" fill="#8b8b94">Score: 79%</text>
+  <circle cx="60" cy="170" r="6" fill="#f472b6"/>
+  <text x="80" y="174" font-family="Arial" font-size="10" fill="white">Week 8</text>
+  <text x="80" y="188" font-family="Arial" font-size="9" fill="#8b8b94">Score: 87%</text>
+  <!-- Mini chart -->
+  <polyline points="180,180 220,160 260,140 300,120 340,100" fill="none" stroke="#f472b6" stroke-width="2"/>
+  <circle cx="180" cy="180" r="3" fill="#f472b6"/>
+  <circle cx="220" cy="160" r="3" fill="#f472b6"/>
+  <circle cx="260" cy="140" r="3" fill="#f472b6"/>
+  <circle cx="300" cy="120" r="3" fill="#f472b6"/>
+  <circle cx="340" cy="100" r="3" fill="#f472b6"/>
+  <text x="180" y="200" font-family="Arial" font-size="8" fill="#5a5a64">Jan</text>
+  <text x="340" y="200" font-family="Arial" font-size="8" fill="#5a5a64">Now</text>
+</svg>

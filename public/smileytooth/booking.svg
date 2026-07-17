@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="390" height="844" viewBox="0 0 390 844">
+  <rect width="390" height="844" fill="#0a0a1a"/>
+  <text x="24" y="50" font-family="Arial" font-size="20" font-weight="bold" fill="white">Find Dentist</text>
+  <!-- Search bar -->
+  <rect x="24" y="70" width="342" height="44" rx="12" fill="#101018" stroke="#1e1e28" stroke-width="1"/>
+  <text x="48" y="97" font-family="Arial" font-size="13" fill="#5a5a64">Search by location or name...</text>
+  <!-- Map placeholder -->
+  <rect x="24" y="130" width="342" height="180" rx="12" fill="#0369a120" stroke="#38bdf820" stroke-width="1"/>
+  <text x="195" y="225" text-anchor="middle" font-family="Arial" font-size="14" fill="#38bdf8">🗺️ Map View</text>
+  <!-- Dentist cards -->
+  <rect x="24" y="330" width="342" height="110" rx="12" fill="#101018" stroke="#1e1e28" stroke-width="1"/>
+  <circle cx="64" cy="370" r="25" fill="#a78bfa20"/>
+  <text x="64" y="375" text-anchor="middle" font-family="Arial" font-size="18">👩‍⚕️</text>
+  <text x="100" y="360" font-family="Arial" font-size="14" font-weight="bold" fill="white">Dr. Sarah Perera</text>
+  <text x="100" y="380" font-family="Arial" font-size="11" fill="#8b8b94">Orthodontist • 0.8 km</text>
+  <text x="100" y="400" font-family="Arial" font-size="11" fill="#fbbf24">⭐ 4.9 (128 reviews)</text>
+  <rect x="280" y="348" width="70" height="30" rx="8" fill="#38bdf8"/>
+  <text x="315" y="368" text-anchor="middle" font-family="Arial" font-size="11" font-weight="bold" fill="white">Book</text>
+  <rect x="24" y="455" width="342" height="110" rx="12" fill="#101018" stroke="#1e1e28" stroke-width="1"/>
+  <circle cx="64" cy="495" r="25" fill="#34d39920"/>
+  <text x="64" y="500" text-anchor="middle" font-family="Arial" font-size="18">👨‍⚕️</text>
+  <text x="100" y="485" font-family="Arial" font-size="14" font-weight="bold" fill="white">Dr. Michael Fernando</text>
+  <text x="100" y="505" font-family="Arial" font-size="11" fill="#8b8b94">General Dentist • 1.2 km</text>
+  <text x="100" y="525" font-family="Arial" font-size="11" fill="#fbbf24">⭐ 4.7 (96 reviews)</text>
+  <rect x="280" y="473" width="70" height="30" rx="8" fill="#38bdf8"/>
+  <text x="315" y="493" text-anchor="middle" font-family="Arial" font-size="11" font-weight="bold" fill="white">Book</text>
+</svg>

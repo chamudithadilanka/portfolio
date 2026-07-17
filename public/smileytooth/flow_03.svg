@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="250" viewBox="0 0 400 250">
+  <rect width="400" height="250" fill="#0a0a1a" rx="12"/>
+  <rect x="20" y="20" width="360" height="210" rx="8" fill="#101018" stroke="#34d39930" stroke-width="1"/>
+  <text x="200" y="50" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold" fill="white">Gum Health Check</text>
+  <!-- Gum visualization -->
+  <rect x="80" y="70" width="240" height="100" rx="8" fill="#0a0a1a"/>
+  <path d="M100 120 Q150 80 200 120 Q250 80 300 120" fill="none" stroke="#f472b6" stroke-width="3" opacity="0.6"/>
+  <path d="M100 130 Q150 100 200 130 Q250 100 300 130" fill="#f472b620"/>
+  <!-- Status indicators -->
+  <rect x="80" y="185" width="100" height="35" rx="6" fill="#34d39915" stroke="#34d39930" stroke-width="1"/>
+  <text x="130" y="207" text-anchor="middle" font-family="Arial" font-size="10" fill="#34d399">Healthy</text>
+  <rect x="190" y="185" width="100" height="35" rx="6" fill="#fbbf2415" stroke="#fbbf2430" stroke-width="1"/>
+  <text x="240" y="207" text-anchor="middle" font-family="Arial" font-size="10" fill="#fbbf24">Mild</text>
+</svg>

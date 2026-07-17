@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="390" height="844" viewBox="0 0 390 844">
+  <rect width="390" height="844" fill="#0a0a1a"/>
+  <rect x="24" y="40" width="342" height="180" rx="16" fill="#101018" stroke="#1e1e28" stroke-width="1"/>
+  <text x="44" y="75" font-family="Arial" font-size="14" fill="#8b8b94">Health Report</text>
+  <text x="44" y="130" font-family="Arial" font-size="56" font-weight="bold" fill="#38bdf8">87%</text>
+  <text x="44" y="160" font-family="Arial" font-size="13" fill="#34d399">Excellent dental health</text>
+  <text x="44" y="195" font-family="Arial" font-size="11" fill="#8b8b94">Last scan: Today, 8:30 AM</text>
+  <!-- Metrics -->
+  <rect x="24" y="240" width="165" height="80" rx="12" fill="#101018" stroke="#38bdf820" stroke-width="1"/>
+  <text x="44" y="270" font-family="Arial" font-size="11" fill="#8b8b94">Plaque Level</text>
+  <text x="44" y="300" font-family="Arial" font-size="22" font-weight="bold" fill="#34d399">Low</text>
+  <rect x="201" y="240" width="165" height="80" rx="12" fill="#101018" stroke="#a78bfa20" stroke-width="1"/>
+  <text x="221" y="270" font-family="Arial" font-size="11" fill="#8b8b94">Gum Health</text>
+  <text x="221" y="300" font-family="Arial" font-size="22" font-weight="bold" fill="#a78bfa">Good</text>
+  <rect x="24" y="340" width="165" height="80" rx="12" fill="#101018" stroke="#fbbf2420" stroke-width="1"/>
+  <text x="44" y="370" font-family="Arial" font-size="11" fill="#8b8b94">Alignment</text>
+  <text x="44" y="400" font-family="Arial" font-size="22" font-weight="bold" fill="#fbbf24">Fair</text>
+  <rect x="201" y="340" width="165" height="80" rx="12" fill="#101018" stroke="#f472b620" stroke-width="1"/>
+  <text x="221" y="370" font-family="Arial" font-size="11" fill="#8b8b94">Whiteness</text>
+  <text x="221" y="400" font-family="Arial" font-size="22" font-weight="bold" fill="#f472b6">82%</text>
+  <!-- Chart bars -->
+  <text x="24" y="460" font-family="Arial" font-size="13" font-weight="bold" fill="white">Weekly Progress</text>
+  <rect x="40" y="500" width="30" height="120" rx="4" fill="#38bdf830"/>
+  <rect x="40" y="560" width="30" height="60" rx="4" fill="#38bdf8"/>
+  <rect x="90" y="500" width="30" height="120" rx="4" fill="#38bdf830"/>
+  <rect x="90" y="540" width="30" height="80" rx="4" fill="#38bdf8"/>
+  <rect x="140" y="500" width="30" height="120" rx="4" fill="#38bdf830"/>
+  <rect x="140" y="520" width="30" height="100" rx="4" fill="#38bdf8"/>
+  <rect x="190" y="500" width="30" height="120" rx="4" fill="#38bdf830"/>
+  <rect x="190" y="530" width="30" height="90" rx="4" fill="#38bdf8"/>
+  <rect x="240" y="500" width="30" height="120" rx="4" fill="#38bdf830"/>
+  <rect x="240" y="510" width="30" height="110" rx="4" fill="#38bdf8"/>
+  <rect x="290" y="500" width="30" height="120" rx="4" fill="#38bdf830"/>
+  <rect x="290" y="520" width="30" height="100" rx="4" fill="#38bdf8"/>
+  <text x="55" y="645" text-anchor="middle" font-family="Arial" font-size="9" fill="#8b8b94">Mon</text>
+  <text x="105" y="645" text-anchor="middle" font-family="Arial" font-size="9" fill="#8b8b94">Tue</text>
+  <text x="155" y="645" text-anchor="middle" font-family="Arial" font-size="9" fill="#8b8b94">Wed</text>
+  <text x="205" y="645" text-anchor="middle" font-family="Arial" font-size="9" fill="#8b8b94">Thu</text>
+  <text x="255" y="645" text-anchor="middle" font-family="Arial" font-size="9" fill="#8b8b94">Fri</text>
+  <text x="305" y="645" text-anchor="middle" font-family="Arial" font-size="9" fill="#8b8b94">Sat</text>
+</svg>
