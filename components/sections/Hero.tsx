@@ -425,8 +425,9 @@ export default function Hero() {
                 <ArrowRight size={18} />
               </motion.button>
               <motion.a
-                href="#"
-                download
+                href="https://drive.google.com/file/d/1NfPcvH9jz5qhsEziW0nD6pHdkMkAbLS1/view?usp=drive_link"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="btn btn-secondary"
                 whileHover={{ scale: 1.03 }}
                 whileTap={{ scale: 0.97 }}
